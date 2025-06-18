@@ -21,16 +21,17 @@
 
 감사합니다!
 
-
 ## 프로그램 개요
 
-- **기초**
-- **구조**
-- **구조 보강**
-- **지붕**
-- **벽체**
-- **창호**
-- **파라펫 여부**
+- [**기초**](#기초-00--05-사용법)
+- [**구조**](#구조-00--04-사용법)
+- [**구조 보강**](#구조보강-00--04-사용법)
+- [**지붕**](#지붕-00--08-사용법)
+- [**벽체**](#벽체-00--04-사용법)
+- [**창호**](#창호-00--03-사용법)
+- [**파라펫 여부**](#파라펫-미적용-01--05-사용법)
+- [**파라펫 적용**](#파라펫-적용-01--06-사용법)
+
 
 위와 같은 주요 설계 요소를 기준으로 단계별 모델링이 가능하도록 본 프로그램이 구성되어 있습니다.
 
@@ -276,4 +277,178 @@
 </div>
 
 위에서 부터 아래로 용마루의 상단길이, 중간길이, 하단길이 입니다. 여기에 두께를 설정하시면 지붕의 경사에 맞게 용마루가 배치됩니다. 두께와 길이의 최소 길이는 1mm입니다. 
+
+## 벽체 00 ~ 04 사용법
+
+<div align="center">
+  <img src="image/wall_00.png" width="100%"/>
+</div>
+
+### 벽체 00 : 벽 유형을 선택하세요. 
+
+<div align="center">
+  <img src="image/wall_00.gif" width="100%"/>
+</div>
+
+그라스울 패널 수평 / 수직을 선택하면 외벽의 해치 방향과 벽 두께가 결정됩니다. (수직 해치, 수평 해치)
+
+### 벽체 01 : 하지철물 유형을 선택하세요. 
+
+그라스울 패널을 지지하고 파라펫 유형일 경우 하지 철물이 파라펫 높이까지 연장됩니다. 
+
+<div align="center">
+  <img src="image/wall_01.gif" width="100%"/>
+</div>
+
+### 벽체 02 : 하지철물과 기둥 사이의 간격을 설정하세요. 
+
+하지철물과 기둥사이에 간격을 두어 가변적인 고정대에 대응하기 위한 간격입니다. 
+
+<div align="center">
+  <img src="image/wall_02.gif" width="100%"/>
+</div>
+
+### 벽체 03 : 베이스 플레이트로부터 벽 내림 길이를 설정하세요.
+
+<div align="center">
+  <img src="image/wall_03.gif" width="100%"/>
+</div>
+
+### 벽체 04 : 선홈통의 개수를 설정하세요. 
+
+선홈통의 개수를 설정하면 상하쪽 사이드에 설정한 개수 만큼 생깁니다. 만약에 2를 선택하시면 최종 모델링에는 사이드 당 2씩 총 네개가 생깁니다. 
+
+또한 선홈통의 위치는 등간격으로 창문사이에 자동으로 배치됩니다. 필요한 위치에 사용자가 직접 이동시켜야 합니다. 
+
+<div align="center">
+  <img src="image/wall_04.gif" width="100%"/>
+</div>
+
+## 창호 00 ~ 03 사용법
+
+모든 창호는 윈드빔과 바닥레벨을 기준으로 형성됩니다. 
+
+<div align="center">
+  <img src="image/window_00.png" width="100%"/>
+</div>
+
+### 창호 00 : 창문 미서기창 N열 여부를 선택하세요.  
+
+<div align="center">
+  <img src="image/window_00.gif" width="100%"/>
+</div>
+
+### 창호 01 : 창문 프레임 지지대 컬럼을 선택하세요.  
+
+창문 프레임을 고정해주는 좌우쪽 지지대입니다. 
+
+<div align="center">
+  <img src="image/window_01.PNG" width="80%"/>
+</div>
+
+<div align="center">
+  <img src="image/window_01.gif" width="100%"/>
+</div>
+
+### 창호 02 : 창문 프레임 지지대 빔을 선택하세요.  
+
+<div align="center">
+  <img src="image/window_02.PNG" width="80%"/>
+</div>
+
+창문 프레임을 고정해주는 상하쪽 지지대입니다. 
+
+<div align="center">
+  <img src="image/window_02.gif" width="100%"/>
+</div>
+
+### 창호 03 : 창문과 바닥레벨과의 거리를 설정하세요.  
+
+윈드빔과 바닥레벨로 부터 창이 시작하는 위치를 설정합니다. 
+
+<div align="center">
+  <img src="image/window_03.gif" width="100%"/>
+</div>
+
+
+## 파라펫 미적용 01 ~ 05 사용법
+
+<div align="center">
+  <img src="image/px_00.png" width="100%"/>
+</div>
+
+### 파라펫 01 : 좌우 측 지붕 처마 오프셋 길이를 설정하세요.  
+
+<div align="center">
+  <img src="image/px_01.gif" width="100%"/>
+</div>
+
+### 파라펫 02 : 상하 측 지붕 처마 오프셋 길이를 설정하세요.  
+
+<div align="center">
+  <img src="image/px_02.gif" width="100%"/>
+</div>
+
+
+### 파라펫 03 : 거터의 위치를 선택하세요.  
+
+<div align="center">
+  <img src="image/px_03.gif" width="100%"/>
+</div>
+
+
+### 파라펫 04 : 거터의 상하 길이를 설정하세요.  
+
+<div align="center">
+  <img src="image/px_04.gif" width="100%"/>
+</div>
+
+### 파라펫 05 : 거터의 좌우 너비를 설정하세요. (최소 55mm 이상)  
+
+<div align="center">
+  <img src="image/px_05.gif" width="100%"/>
+</div>
+
+
+## 파라펫 적용 01 ~ 06 사용법
+
+<div align="center">
+  <img src="image/po_00.png" width="100%"/>
+</div>
+
+### 파라펫 01 : 파라펫 높이를 설정하세요.  
+
+<div align="center">
+  <img src="image/po_01.gif" width="100%"/>
+</div>
+
+### 파라펫 02 : 파라펫 Flashing 상단 높이를 설정하세요.  
+
+<div align="center">
+  <img src="image/po_02.gif" width="100%"/>
+</div>
+
+### 파라펫 03 : 파라펫 Flashing 하단 깊이를 설정하세요.  
+
+<div align="center">
+  <img src="image/po_03.gif" width="100%"/>
+</div>
+
+### 파라펫 04 : 파라펫 Flashing 왼쪽 너비를 설정하세요.  
+
+<div align="center">
+  <img src="image/po_04.gif" width="100%"/>
+</div>
+
+### 파라펫 05 : 파라펫 Flashing 오른쪽 너비를 설정하세요.  
+
+<div align="center">
+  <img src="image/po_05.gif" width="100%"/>
+</div>
+
+### 파라펫 06 : 상하 측 지붕 처마 오프셋 길이를 설정하세요.
+
+<div align="center">
+  <img src="image/po_06.gif" width="100%"/>
+</div>
 
